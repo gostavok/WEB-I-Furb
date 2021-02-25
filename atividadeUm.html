@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade 1</title>
+	<style type="text/css">
+		
+		* {
+		    margin: 0;
+		    padding: 0;
+		    box-sizing: border-box;
+		}
+
+		body {
+			background-color: #d8dfd0;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 52px;
+			font-family: Fantasy;
+		}
+
+		header {
+			margin-top: 60px;
+		}
+
+		div {
+			position: absolute;
+			top: 270px;
+			
+		}
+
+		.divEsquerda{
+			left: 125px;
+		}
+
+		.divDireita{
+			right: 125px;
+		}
+
+		div input {
+			position: absolute;
+			left: 150px;
+			border: 2px solid #7874d8;
+  			border-radius: 3px;
+  			outline: 0;
+
+		}
+
+		.input:focus {
+			border: 2.8px solid #7859d8;
+  			height: 21px;
+		}
+
+		#customers {
+		  font-family: Arial, Helvetica, sans-serif;
+		  border: 1.6px solid black;
+		  border-collapse: collapse;
+		  width: 400px;
+		}
+
+		#customers td, #customers th {
+		  border: 1px solid #ddd;
+		  padding: 8px;
+		}
+
+		#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+		#customers tr:hover {background-color: #ddd;}
+
+		#customers th {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  text-align: left;
+		  background-color: #7874d8;
+		  color: white;
+		}
+
+		.button {
+		  background-color: #7874d8;
+		  border: none;
+		  color: white;
+		  padding: 20px;
+		  text-align: center;
+		  text-decoration: none;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		  border-radius: 12px;
+		}
+
+		footer {
+			position: absolute;
+  			bottom: 0px;
+			margin-top: 50px;
+			text-align: center;
+			padding: 10px;
+			background-color: #7874d8;
+			color: white;
+			width: 100%;
+		}
+
+
+	</style>
+
+</head>
+<body>
+	<header>
+		<h1>O Brabo tem N0me</h1>
+	<header>
+
+	<div class="divEsquerda">
+		<form method="post">
+		  <label for="fname">Nome do mais brabo:</label>
+		  <input class="input" type="text" id="fname" name="fname"><br><br>
+		  <label for="lname">Idade dele:</label>
+		  <input class="input" type="number" id="idade" name="idade"><br><br>
+		  <label for="perdido"> Estou Perdido</label>
+		  <input type="checkbox" name="perdido" value="true"><br><br>
+		  <button class="button">Enviar</button>
+		</form>
+	</div>
+
+	<div class="divDireita">
+		<table id="customers">
+		  <tr>
+		    <th>Nome</th>
+		    <th>Idade</th>
+		    <th>Perdido</th>
+		  </tr>
+		  <tr>
+		    <td>Alfreds Futterkiste</td>
+		    <td>16</td>
+		    <td>Sim</td>
+		  </tr>
+		  <tr>
+		    <td>Sam Club's Blumenau</td>
+		    <td>1</td>
+		    <td>Não</td>
+		  </tr>
+		    <tr>
+		    <td>Doutor Blumenau</td>
+		    <td>189</td>
+		    <td>Sim</td>
+		  </tr>
+		</table>
+	</div>
+
+	<footer>
+  		<p>Author: O brabo tem nome<br>
+  		<a href="https://www.youtube.com/watch?v=18tCzZcdxSo">ghkistner@furb.com.br</a></p>
+	</footer>
+</body>
+</html>
