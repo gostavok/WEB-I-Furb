@@ -1,0 +1,1136 @@
+
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="pt-br" xml:lang="pt-br">
+<head>
+    <title>Painel</title>
+    <link rel="shortcut icon" href="//ava3.furb.br/pluginfile.php/1/theme_remui/faviconurl/1614715870/logo-furb-color.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Painel" />
+<link rel="stylesheet" type="text/css" href="https://ava3.furb.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://ava3.furb.br/theme/styles.php/remui/1614715870_1/all" />
+<link href='https://fonts.googleapis.com/css?family=Open Sans:300,400,500,600,700,300italic' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+</head>
+
+<body  id="page-my-index" class="format-site  path-my safari dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam ava3-furb-br pagelayout-mydashboard course-1 context-384044 site-menubar-unfold site-menubar-fold-alt site-menubar-keep  page-aside-fixed page-aside-right" data-isfolded="0">
+
+    <div class="edwiser-notice position-fixed mt-10" style="display: none; z-index: 1500;left: 50%;transform: translateX(-50%);" role="alert">
+    </div>
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Ir para o conteúdo principal</a>
+</div><script type="text/javascript" src="https://ava3.furb.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://ava3.furb.br/theme/jquery.php/core/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://ava3.furb.br/lib/javascript.php/1612534124/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://ava3.furb.br/theme/javascript.php/remui/1614715870/head"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav>
+        <!-- navbar-inverse -->
+        <nav class="site-navbar navbar navbar-default navbar-fixed-top moodle-has-zindex navbar-inverse  bg-customcolor-600 " role="navigation">
+            <div class="navbar-header d-flex justify-content-end ">
+              <button type="button" class="navbar-toggler hamburger hamburger-close navbar-toggler-left hided mr-auto"
+              data-toggle="menubar">
+                <span class="sr-only">Expandir</span>
+                <span class="hamburger-bar"></span>
+              </button>
+              
+              <div class="navbar-brand navbar-brand-center p-0  bg-customcolor-600 ">
+                    <a class="text-white text-center d-block h-full" style="line-height:66px;" href="https://ava3.furb.br">
+                      <span class="navbar-brand-logo mini w-full h-full"><i class="fa fa-graduation-cap"></i></span>
+                      <span class="navbar-brand-logo w-full h-full">
+                          <i class="fa fa-graduation-cap"></i>
+                          AVA3
+                      </span>
+                    </a>
+                  
+              </div>
+        
+              
+        
+              <button type="button" class="navbar-toggler collapsed" data-target="#site-navbar-collapse"
+              data-toggle="collapse">
+                <i class="icon fa fa-ellipsis-h" aria-hidden="true"></i>
+              </button>
+        
+            </div>
+            <div class="navbar-container container-fluid pl-0" style="-ms-flex:1 1 0%;">
+              <!-- Navbar Collapse -->
+              <div class="collapse navbar-collapse navbar-collapse-toolbar" id="site-navbar-collapse">
+                <!-- Navbar Toolbar -->
+                <ul class="nav navbar-toolbar">
+                  <li class="nav-item hidden-float" id="toggleMenubar">
+                    <a class="nav-link px-10" data-toggle="menubar" data-toggle="menubardesktop" href="#" role="button">
+                      <i class="icon hamburger">
+                        <span class="sr-only">Expandir</span>
+                        <span class="hamburger-bar"></span>
+                      </i>
+                    </a>
+                  </li>
+                  <li class="nav-item hidden-sm-down" id="toggleFullscreen">
+                    <a class="nav-link icon icon-fullscreen" data-toggle="fullscreen" href="#" role="button">
+                      <span class="sr-only">Toggle fullscreen</span>
+                    </a>
+                  </li>
+        
+                    <li class="nav-item dropdown " id="recentCourses">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up" aria-expanded="true" role="button">Recentes</a>
+                      <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/view.php?id=25055">Legislação em Informática - Noturno</a>
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/view.php?id=25113">Algoritmos e Estrutura de Dados - Noturno</a>
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/view.php?id=25096">Teoria da Computação - Noturno</a>
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/view.php?id=25120">Programação Web I - Noturno</a>
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/view.php?id=24176">Programação Orientada a Objetos - Noturno A</a>
+                      </div>
+                    </li>
+        
+                  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="drop-down-604964f5257e7604964f4a50876" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up"
+                aria-expanded="false" role="button">
+            Institucional
+        </a>
+        <div class="dropdown-menu" role="menu" aria-labelledby="drop-down-604964f5257e7604964f4a50876">
+                    <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/index.php" title="Todos os Cursos">Todos os Cursos</a>
+                    <a class="dropdown-item" role="menuitem" href="http://www.furb.br/dion" target="_blank" title="Diário OnLine">Diário OnLine</a>
+                    <a class="dropdown-item" role="menuitem" href="http://www.furb.br/web/1603/servicos/portal-academico/apresentacao" target="_blank" title="Portal Acadêmico">Portal Acadêmico</a>
+                    <a class="dropdown-item" role="menuitem" href="http://www.furb.br/web/2071/servicos/portal-academico/professor" target="_blank" title="Portal Docente">Portal Docente</a>
+                    <a class="dropdown-item" role="menuitem" href="http://www.furb.br/ci" target="_blank" title="Central de impressão">Central de impressão</a>
+        </div>
+            </li><li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="drop-down-604964f5258cb604964f4a50877" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up"
+                        aria-expanded="false" role="button">
+                    Mobile
+                </a>
+                <div class="dropdown-menu" role="menu" aria-labelledby="drop-down-604964f5258cb604964f4a50877">
+                            <a class="dropdown-item" role="menuitem" href="https://bit.ly/30R8tdl" target="_blank" title="APP Android">APP Android</a>
+                            <a class="dropdown-item" role="menuitem" href="https://itunes.apple.com/br/app/furb-ava3/id1459996486" target="_blank" title="APP iOS">APP iOS</a>
+                            <a class="dropdown-item" role="menuitem" href="http://www10.furb.br/manuais/manual-ava3.php" target="_blank" title=" Como conectar"> Como conectar</a>
+                </div>
+            </li><li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="drop-down-604964f525983604964f4a50878" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up"
+                        aria-expanded="false" role="button">
+                    Ajuda
+                </a>
+                <div class="dropdown-menu" role="menu" aria-labelledby="drop-down-604964f525983604964f4a50878">
+                            <a class="dropdown-item" role="menuitem" href="http://www10.furb.br/manuais/manual-ava3.php "target="_blank" title=" Manuais AVA"> Manuais AVA</a>
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/index.php?mycourses=0&amp;categoryid=1110&amp;categorysort=default" title=" Formações Acadêmicas"> Formações Acadêmicas</a>
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/index.php?mycourses=0&amp;categoryid=991&amp;categorysort=default" title=" Formações Docentes"> Formações Docentes</a>
+                </div>
+            </li><li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="drop-down-604964f525a56604964f4a50879" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up"
+                        aria-expanded="false" role="button">
+                    Aulas Remotas
+                </a>
+                <div class="dropdown-menu" role="menu" aria-labelledby="drop-down-604964f525a56604964f4a50879">
+                            <a class="dropdown-item" role="menuitem" href="https://aka.ms/mstfw" target="_blank" title=" Portal Microsoft Teams web"> Portal Microsoft Teams web</a>
+                            <a class="dropdown-item" role="menuitem" href="https://statics.teams.microsoft.com/production-windows-x64/1.3.00.3564/Teams_windows_x64.exe" target="_blank" title=" Microsoft Teams para desktop"> Microsoft Teams para desktop</a>
+                            <a class="dropdown-item" role="menuitem" href="https://apps.apple.com/br/app/microsoft-teams/id1113153706" target="_blank" title=" App Teams para iphone"> App Teams para iphone</a>
+                            <a class="dropdown-item" role="menuitem" href="http://tiny.cc/mnvulz" target="_blank" title=" App Teams para android"> App Teams para android</a>
+                            <a class="dropdown-item" role="menuitem" href="https://youtu.be/j2PcxzmcEJ4" target="_blank" title=" Orientação - Alunos"> Orientação - Alunos</a>
+                            <a class="dropdown-item" role="menuitem" href="https://ava3.furb.br/course/view.php?id=22640%22%20target%3D%22_blank" title=" Orientação - Professores"> Orientação - Professores</a>
+                </div>
+            </li>
+                          <li class="hideshow nav-item dropdown">
+                            <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown" data-animation="scale-up">
+                              <i class="icon fa fa-ellipsis-h"></i>
+                            </a>
+                            <ul class="hideshow-ul dropdown-menu">
+                
+                            </ul>
+                          </li>
+                        </ul>
+                        <!-- End Navbar Toolbar -->
+                
+                        <!-- Navbar Toolbar Right -->
+                        <!-- user_menu -->
+                        <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+                          
+                          
+                          <!-- navbar_plugin_output : 'message', 'notifications' and 'chat sidebar' toggles -->
+                          <li class="popover-region collapsed popover-region-messages nav-item dropdown"
+                id="nav-message-popover-container" data-userid="18718"
+                data-region="popover-region">
+                <a class="popover-region-toggle nav-link"
+                    data-toggle="dropdown"
+                    data-region="popover-region-toggle"
+                    href="javascript:void(0)"
+                    title="Alternar menu de mensagens"
+                    aria-expanded="false"
+                    data-animation="scale-up"
+                    role="button">
+                            <i class="icon fa fa-envelope" aria-hidden="true"></i>
+                   <!--  <i class="icon fa fa-comment fa-fw "  title="Alternar menu de mensagens" aria-label="Alternar menu de mensagens"></i> -->
+                    <span class="badge badge-pill badge-important up animation-shake  " data-region="count-container">1</span>
+
+                </a>
+
+                <div 
+                    id="popover-region-container-604964f52ac9e604964f4a508710"
+                    class="dropdown-menu dropdown-menu-right dropdown-menu-media"
+                    style="height: auto;"
+                    data-region="popover-region-container"
+                    aria-expanded="false"
+                    aria-hidden="true"
+                    aria-label="Janela de notificação"
+                    role="region">
+                    <div class="dropdown-menu-header">
+                        <h5 class="text-uppercase d-inline" data-region="popover-region-header-text">Mensagens</h5>
+                        <span class="float-right popover-region-header-actions">            <a class="mark-all-read-button badge badge-round badge-info"
+                            href="javascript:void(0)"
+                            role="button"
+                            title="Marcar tudo como lido"
+                            data-action="mark-all-read">
+                            <i class="icon fa fa-check" aria-hidden="true"></i>
+                        </a>
+                    
+                            <a href="https://ava3.furb.br/message/index.php?contactsfirst=1" class="badge badge-round badge-info" title="Nova Mensagem">
+                                <i class="icon fa fa-edit" aria-hidden="true"></i>
+                            </a>
+        </span>
+                </div>
+
+                <div class="list-group" role="presentation">
+                    <div class="popover-region-content-container" style="min-height: 200px;" data-role="container" data-region="popover-region-content-container">
+                        <div class="popover-region-content" data-role="content" data-region="popover-region-content">
+                                    <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+                <div class="empty-message" data-region="empty-message" tabindex="0">Sem novas mensagens</div>
+
+                        </div>
+                        <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Carregando" aria-label="Carregando"></i></span>
+                    </div>
+                </div>
+                <div class="dropdown-menu-footer" role="presentation">
+                                <a href="https://ava3.furb.br/message/edit.php?id=18718" class="dropdown-menu-footer-btn"
+                        title="Preferências de mensagens">
+                        <i class="icon fa fa-cog" aria-hidden="true"></i>
+                    </a>
+
+
+                            <a class="see-all-link dropdown-item"
+                                role="menuitem"
+                                href="https://ava3.furb.br/message/index.php">
+                                Mostrar todos
+                            </a>
+                </div>
+            </div>
+        </li><li class="popover-region collapsed popover-region-notifications nav-item dropdown"
+            id="nav-notification-popover-container" data-userid="18718"
+            data-region="popover-region">
+            <a class="popover-region-toggle nav-link"
+                data-toggle="dropdown"
+                data-region="popover-region-toggle"
+                href="javascript:void(0)"
+                title="Alternar menu de notificações"
+                aria-expanded="false"
+                data-animation="scale-up"
+                role="button">
+                        <i class="icon fa fa-bell" aria-hidden="true"></i>
+                <!-- <i class="icon fa fa-bell fa-fw "  title="Alternar menu de notificações" aria-label="Alternar menu de notificações"></i> -->
+                <span class="badge badge-pill badge-important up animation-shake hidden" data-region="count-container">0</span>
+
+            </a>
+
+            <div 
+                id="popover-region-container-604964f52b60c604964f4a508711"
+                class="dropdown-menu dropdown-menu-right dropdown-menu-media"
+                style="height: auto;"
+                data-region="popover-region-container"
+                aria-expanded="false"
+                aria-hidden="true"
+                aria-label="Janela de notificação"
+                role="region">
+                <div class="dropdown-menu-header">
+                    <h5 class="text-uppercase d-inline" data-region="popover-region-header-text">Notificações</h5>
+                    <span class="float-right popover-region-header-actions">            <a class="mark-all-read-button badge badge-round badge-info"
+                        href="javascript:void(0)"
+                        title="Marcar tudo como lido"
+                        data-action="mark-all-read"
+                        role="button">
+                        <i class="icon fa fa-check" aria-hidden="true"></i>
+                    </a>
+
+    </nav>
+
+    <main>
+
+            <div class="list-group" role="presentation">
+                <div class="popover-region-content-container" style="min-height: 200px;" data-role="container" data-region="popover-region-content-container">
+                    <div class="popover-region-content" data-role="content" data-region="popover-region-content">
+                                <div class="all-notifications"
+                data-role="content"
+                data-region="all-notifications"
+                role="log"
+                aria-busy="false"
+                aria-atomic="false"
+                aria-relevant="additions"></div>
+            <div class="empty-message" tabindex="0" data-region="empty-message">Você não tem nenhuma notificação</div>
+
+                    </div>
+                    <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Carregando" aria-label="Carregando"></i></span>
+                </div>
+            </div>
+            <div class="dropdown-menu-footer" role="presentation">
+                            <a href="https://ava3.furb.br/message/notificationpreferences.php?userid=18718" class="dropdown-menu-footer-btn"
+                    title="Preferências de notificação">
+                    <i class="icon fa fa-cog" aria-hidden="true"></i>
+                </a>
+
+
+                        <a class="see-all-link dropdown-item"
+                            role="menuitem"
+                            href="https://ava3.furb.br/message/output/popup/notifications.php">
+                            Mostrar todos
+                        </a>
+            </div>
+        </div>
+            </li>
+                  
+                  <li class="usermenu nav-item dropdown user-menu login-menu"><a class="nav-link navbar-avatar" data-toggle="dropdown" href="#" aria-expanded="false" data-animation="scale-up" role="button">
+                <span class="username">Gustavo Henrique Kistner</span>
+                <span class="avatar avatar-online current">
+                <img src="https://ava3.furb.br/theme/image.php/remui/core/1614715870/u/f2" class="userpicture defaultuserpic" width="35" height="35" role="presentation" aria-hidden="true" />
+                <i></i>
+                </span>
+            </a><div class="dropdown-menu" role="menu"><a class="dropdown-item" href="https://ava3.furb.br/my/" role="menuitem"><i class="icon fa fa-tachometer fa-fw iconsmall" aria-hidden="true" title="Painel" ></i>Painel</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://ava3.furb.br/user/profile.php?id=18718" role="menuitem"><i class="icon fa fa-user fa-fw iconsmall" aria-hidden="true" title="Perfil" ></i>Perfil</a><a class="dropdown-item" href="https://ava3.furb.br/grade/report/overview/index.php" role="menuitem"><i class="icon fa fa-table fa-fw iconsmall" aria-hidden="true" title="Notas" ></i>Notas</a><a class="dropdown-item" href="https://ava3.furb.br/message/index.php" role="menuitem"><i class="icon fa fa-comment fa-fw iconsmall" aria-hidden="true" title="Mensagens" ></i>Mensagens</a><a class="dropdown-item" href="https://ava3.furb.br/user/preferences.php" role="menuitem"><i class="icon fa fa-wrench fa-fw iconsmall" aria-hidden="true" title="Preferências" ></i>Preferências</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://ava3.furb.br/login/logout.php?sesskey=j15z6nCqcF" role="menuitem"><i class="icon fa fa-sign-out fa-fw iconsmall" aria-hidden="true" title="Sair" ></i>Sair</a></div></li>
+        
+        
+                  
+                </ul>
+                <!-- End Navbar Toolbar Right -->
+              </div>
+              <!-- End Navbar Collapse -->
+        
+              <!-- Site Navbar Seach -->
+                
+              <!-- End Site Navbar Seach -->
+            </div>
+          
+        
+           <div class="site-menubar site-menubar-light moodle-has-zindex">
+            <div class="site-menubar-body">
+              <div>
+                <ul class="site-menu" data-plugin="menu">
+        
+                    
+                    
+                                <li class="site-menu-item  active"  title="Painel">
+                                    <a href="https://ava3.furb.br/my/" data-key="myhome" class="py-5"  data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" >
+                                            <i class="site-menu-icon fa-dashboard" aria-hidden="true"></i>
+                                        <span class="site-menu-title">Painel</span>
+                               
+                                </a>
+                            </li>
+                    
+                    
+                                <li class="site-menu-item  "  title="Página inicial do site">
+                                    <a href="https://ava3.furb.br/?redirect=0" data-key="home" class="py-5"  data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                                            <i class="site-menu-icon fa-home" aria-hidden="true"></i>
+                                        <span class="site-menu-title">Página inicial do site</span>
+                               
+                                </a>
+                            </li>
+                    
+                    
+                                <li class="site-menu-item  "  title="Calendário">
+                                    <a href="https://ava3.furb.br/calendar/view.php?view=month" data-key="calendar" class="py-5"  data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                                            <i class="site-menu-icon fa-calendar" aria-hidden="true"></i>
+                                        <span class="site-menu-title">Calendário</span>
+                               
+                                </a>
+                            </li>
+                    
+                    
+                                <li class="site-menu-item  "  title="Arquivos privados">
+                                    <a href="https://ava3.furb.br/user/files.php" data-key="privatefiles" class="py-5"  data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                                            <i class="site-menu-icon fa-paste" aria-hidden="true"></i>
+                                        <span class="site-menu-title">Arquivos privados</span>
+                               
+                                </a>
+                            </li>
+                    
+                    
+                                <li class="site-menu-item has-sub "  title="Meus cursos">
+                                    <a href="https://ava3.furb.br/course/index.php?mycourses=1" data-key="mycourses" class="py-5"  data-isexpandable="1" data-indent="0" data-showdivider="0" data-type="0" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                                            <i class="site-menu-icon fa-archive" aria-hidden="true"></i>
+                                        <span class="site-menu-title">Meus cursos</span>
+                               <span class="site-menu-arrow px-15" id="mycourses-toggler" onclick="return false;"></span>
+                                </a>
+                                    <ul class="site-menu-sub">
+                                        <li class="site-menu-item "  title="SUP-CMP.171.0.2-2021/1">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=25113">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">SUP-CMP.171.0.2-2021/1</span>
+                                          </a>
+                                        </li>
+                                        <li class="site-menu-item "  title="SUP-ADM.522.0.3-2021/1">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=26368">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">SUP-ADM.522.0.3-2021/1</span>
+                                          </a>
+                                        </li>
+                                        <li class="site-menu-item "  title="SUP-CMP.172.1.3-2021/1">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=25457">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">SUP-CMP.172.1.3-2021/1</span>
+                                          </a>
+                                        </li>
+                                        <li class="site-menu-item "  title="SUP-DIR.510.0.2-2021/1">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=25055">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">SUP-DIR.510.0.2-2021/1</span>
+                                          </a>
+                                        </li>
+                                        <li class="site-menu-item "  title="SUP-CMP.170.1.2-2021/1">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=25120">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">SUP-CMP.170.1.2-2021/1</span>
+                                          </a>
+                                        </li>
+                                        <li class="site-menu-item "  title="SUP-CMP.92.0.2-2021/1">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=25096">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">SUP-CMP.92.0.2-2021/1</span>
+                                          </a>
+                                        </li>
+                                        <li class="site-menu-item "  title="AVALUNO">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=23040">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">AVALUNO</span>
+                                          </a>
+                                        </li>
+                                        <li class="site-menu-item "  title="GUIAINTFURB">
+                                          <a class="animsition-link py-5" href="https://ava3.furb.br/course/view.php?id=24231">
+                                                <i class="site-menu-icon fa-folder" aria-hidden="true"></i>
+                                            <span class="site-menu-title">GUIAINTFURB</span>
+                                          </a>
+                                        </li>
+                                    </ul>
+                            </li>
+                    
+                </ul>
+              </div>
+            </div>
+        
+            <div class="site-menubar-footer">
+        
+                    <a href="https://ava3.furb.br/course/index.php" class="fold-show w-p100" data-placement="top" data-toggle="tooltip" data-original-title="Course Archive Page">
+                      <span class="fa fa-archive" aria-hidden="true"></span>
+                    </a>
+        
+            </div>
+          </div>
+
+        <div class="page">
+            <div class="floating-buttons page-settings" data-html2canvas-ignore>
+                <button id="gotop" type="button" class=" btn btn-floating btn-primary hasblock d-none align-items-center justify-content-center" data-toggle="tooltip" data-original-title="Go Top" data-placement="left" data-trigger="hover">
+                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </button>
+            </div>
+            
+
+             <!-- blocks aside -->
+                <div class="page-aside  moodle-has-index" data-html2canvas-ignore>
+                    <div class="page-aside-switch d-lg-none">
+                        <i class="wb-chevron-left" aria-hidden="true">
+                        </i>
+                        <i class="wb-chevron-right" aria-hidden="true"></i>
+                    </div>
+                    <div class="page-aside-switch-lg d-none d-lg-inline">
+                        <i class="wb-chevron-left" aria-hidden="true">
+                        </i>
+                            <div class="page-aside-pin">
+                                <i class="fa fa-thumb-tack"  title="Pin sidebar" aria-hidden="true"></i>
+                            </div>
+                    </div>
+                    <div class="page-aside-inner page-aside-scroll">
+                        <div data-role="container">
+                            <div data-role="content">
+                                <ul class="site-sidebar-nav nav nav-tabs nav-tabs-line" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active show" data-toggle="tab" href="#sidebar-blocks" role="tab" aria-selected="false">
+                                        <i class="icon fa fa-th-large" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+
+                                    
+
+                                </ul>
+                                <div class="site-sidebar-tab-content tab-content">
+                                    <div class="tab-pane fade p-0 active show" id="sidebar-blocks">
+                                        <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><div class="panel panel-bordered  block block_microsoft  "
+                id="inst171211" role="complementary" data-block="microsoft"
+
+      aria-labelledby="instance-171211-header"   >
+        <div class="panel-heading card-block ">
+            <div class="row m-0 p-0">
+                
+                <div class="col-12 m-0 p-0">
+                            <h4 id="instance-171211-header" class="p-20 m-0 wdm-block-title"  title="Usuário">Usuário</h4>
+                </div>
+                
+            </div>
+            
+                </div>
+                <div class="panel-body px-20 pb-20 pt-0 ">
+                    <h5>Gustavo Henrique Kistner</h5><ul>
+            <li><a class="servicelink block_microsoft_outlook" target="_blank" href="https://outlook.office365.com/">Meu Email</a></li>
+            <li><a class="servicelink block_microsoft_forms" target="_blank" href="https://forms.office.com/Pages/DesignPage.aspx#">Meus Forms</a></li>
+            <li></li>
+            <li><a target="_blank" class="servicelink block_microsoft_onedrive" href="https://furb-my.sharepoint.com">Meu OneDrive</a></li>
+            <li><a target="_blank" class="servicelink block_microsoft_msstream" href="https://web.microsoftstream.com/?noSignUpCheck=1">Microsoft Stream</a></li>
+            <li><a target="_blank" class="servicelink block_microsoft_msteams" href="https://teams.microsoft.com/_">Microsoft Teams</a></li>
+            <li><a class="servicelink block_microsoft_outlook" href="https://ava3.furb.br/local/o365/ucp.php?action=calendar">Configurações de sincronização do Calendário do Outlook</a></li>
+            <li><a class="servicelink block_microsoft_downloado365" target="_blank" href="https://portal.office.com/OLS/MySoftware.aspx">Instalar Office</a></li>
+            </ul>
+                </div>
+                    
+            </div><div class="panel panel-bordered  block block_calendar_month  "
+            id="inst171209" role="complementary" data-block="calendar_month"
+
+              aria-labelledby="instance-171209-header"   
+
+            >
+                <div class="panel-heading card-block ">
+                    <div class="row m-0 p-0">
+                        
+                        <div class="col-12 m-0 p-0">
+                                    <h4 id="instance-171209-header" class="p-20 m-0 wdm-block-title"  title="Calendário">Calendário</h4>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="panel-body px-20 pb-20 pt-0 ">
+                    <div id="calendar-month-2021-March-604964f5130aa604964f4a50873"  data-template="core_calendar/month_mini"  data-includenavigation="true" data-mini="true">
+                <div id="month-mini-2021-March-604964f5130aa604964f4a50873" class="calendarwrapper" data-courseid="1" data-categoryid="0" data-month="3" data-year="2021" data-view="month">
+                    <span class="overlay-icon-container hidden" data-region="overlay-icon-container">
+                        <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Carregando" aria-label="Carregando"></i></span>
+                    </span>
+                    <table class="minicalendar calendartable">
+                        <caption class="calendar-controls">
+                                <a href="#" class="arrow_link previous" title="Mês anterior" data-year="2021" data-month="2">
+                                    <span class="arrow">&#x25C4;</span>
+                                </a>
+                                <span class="hide"> | </span>
+                                <span class="current">
+                                    <a href="https://ava3.furb.br/calendar/view.php?view=month&time=1615422709" title="Este mês">março 2021</a>
+                                </span>
+                                <span class="hide"> | </span>
+                                <a href="#" class="arrow_link next" title="Próximo mês" data-year="2021" data-month="4">
+                                    <span class="arrow">&#x25BA;</span>
+                                </a>
+                        </caption>
+                        <thead>
+                          <tr>
+                                <th class="header text-xs-center" scope="col">
+                                    <abbr title="Segunda-feira">Seg</abbr>
+                                </th>
+                                <th class="header text-xs-center" scope="col">
+                                    <abbr title="Terça-feira">Ter</abbr>
+                                </th>
+                                <th class="header text-xs-center" scope="col">
+                                    <abbr title="Quarta-feira">Qua</abbr>
+                                </th>
+                                <th class="header text-xs-center" scope="col">
+                                    <abbr title="Quinta-feira">Qui</abbr>
+                                </th>
+                                <th class="header text-xs-center" scope="col">
+                                    <abbr title="Sexta-feira">Sex</abbr>
+                                </th>
+                                <th class="header text-xs-center" scope="col">
+                                    <abbr title="Sábado">Sáb</abbr>
+                                </th>
+                                <th class="header text-xs-center" scope="col">
+                                    <abbr title="Domingo">Dom</abbr>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr data-region="month-view-week">
+                                    <td class="day text-center" data-day-timestamp="1614567600">
+                                            1
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1614654000">
+                                            2
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1614740400">
+                                            3
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1614826800">
+                                            4
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1614913200">
+                                            5
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1614999600">
+                                            6
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1615086000">
+                                            7
+                                        </td>
+                            </tr>
+                            <tr data-region="month-view-week">
+                                    <td class="day text-center" data-day-timestamp="1615172400">
+                                            8
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1615258800">
+                                            9
+                                        </td>
+                                    <td class="day text-center today" data-day-timestamp="1615345200">
+                                                
+                <a  id="calendar-day-popover-link-1-2021-68-604964f5130aa604964f4a50873" href="https://ava3.furb.br/calendar/view.php?view=day&amp;time=1615345200" data-container="body" data-toggle="popover" data-html="true" data-trigger="hover" data-placement="top" data-title="quarta, 10 março hoje" data-alternate="Nenhum evento">10</a>
+                <div class="hidden">
+                    
+                </div>
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1615431600">
+                                            11
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1615518000">
+                                            12
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1615604400">
+                                            13
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1615690800">
+                                            14
+                                        </td>
+                            </tr>
+                            <tr data-region="month-view-week">
+                                    <td class="day text-center" data-day-timestamp="1615777200">
+                                            15
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1615863600">
+                                            16
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1615950000">
+                                            17
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1616036400">
+                                            18
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1616122800">
+                                            19
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1616209200">
+                                            20
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1616295600">
+                                            21
+                                        </td>
+                            </tr>
+                            <tr data-region="month-view-week">
+                                    <td class="day text-center" data-day-timestamp="1616382000">
+                                            22
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1616468400">
+                                            23
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1616554800">
+                                            24
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1616641200">
+                                            25
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1616727600">
+                                            26
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1616814000">
+                                            27
+                                        </td>
+                                    <td class="day text-center weekend" data-day-timestamp="1616900400">
+                                            28
+                                        </td>
+                            </tr>
+                            <tr data-region="month-view-week">
+                                    <td class="day text-center" data-day-timestamp="1616986800">
+                                            29
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1617073200">
+                                            30
+                                        </td>
+                                    <td class="day text-center" data-day-timestamp="1617159600">
+                                            31
+                                        </td>
+                                    <td class="dayblank">&nbsp;</td>
+                                    <td class="dayblank">&nbsp;</td>
+                                    <td class="dayblank">&nbsp;</td>
+                                    <td class="dayblank">&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+                </div>
+                    
+            </div></aside>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---page-aside-inner-->
+                        </div>
+                    <!-- end blocks aside -->
+
+                    <div class="page-main">
+                    <div class="container">
+                        <header id="page-header" class="page-header"><div class='float-left mr-10'><h1 class="page-title">Gustavo Henrique Kistner</h1><ol class="breadcrumb"><li class="breadcrumb-item"><a href="#"><p></p></a></li></ol></div><div class="page-header-actionss position-relative float-right"><div class="singlebutton m-0">
+                <form method="post" action="https://ava3.furb.br/my/index.php" >
+                        <input type="hidden" name="edit" value="1">
+                        <input type="hidden" name="sesskey" value="j15z6nCqcF">
+                    <button type="submit" class="btn btn-inverse mr-5"
+                        id="single_button604964f4a50871"
+                        title=""
+                        >Personalizar esta página</button>
+                </form>
+            </div></div><div style="clear: both;"></div><div id="course-header"></div></header>
+                        <div class="page-content">
+                            <div id="region-main-box">
+                                <section id="region-main" class="has-blocks">
+
+                                    <span class="notifications" id="user-notifications"></span>
+                                    <div role="main"><span id="maincontent"></span><aside id="block-region-content" class="block-region" data-blockregion="content" data-droptarget="1"><div class="panel panel-bordered  block block_furboverview  "
+            id="inst171210" role="complementary" data-block="furboverview"
+
+              aria-labelledby="instance-171210-header"   
+
+            >
+                <div class="panel-heading card-block ">
+                    <div class="row m-0 p-0">
+                        
+                        <div class="col-12 m-0 p-0">
+                                    <h4 id="instance-171210-header" class="p-20 m-0 wdm-block-title"  title="Resumo dos cursos - FURB">Resumo dos cursos - FURB</h4>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="panel-body px-20 pb-20 pt-0 ">
+                    <div id="block-furboverview-604964f5231a3604964f4a50874" class="block-furboverview row" data-region="furboverview">
+                
+                <div class = "col-sm-12 col-md-12 align-items-center">
+                    <div class = "bg-white">
+                        <div id="courses-view-604964f5231a3604964f4a50874" data-region="courses-view" class = "w-p100 panel panel-bordered">
+                            <div class="panel-heading ">
+                            <h4 class=" p-20 m-0">Meus cursos</h4>
+                            </div>
+                            <div class = "w-p100 d-flex my-10" id = "course-overview-section">
+                                <ul class="nav nav-tabs nav-tabs-line border-0 mx-15 w-full" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#furboverview_courses_view_in_progress" data-toggle="tab">
+                                            Em progresso
+                                            <span class="badge badge-pill badge-important" data-region="count-container">8</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#furboverview_courses_view_future" data-toggle="tab">
+                                            Próximos
+                                            <span class="badge badge-pill badge-important" data-region="count-container">0</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#furboverview_courses_view_past" data-toggle="tab">
+                                            Finalizados
+                                            <span class="badge badge-pill badge-important" data-region="count-container">10</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab-content pt-10">
+                                <div role="tabpanel" class="tab-pane fade show active"  id="furboverview_courses_view_in_progress">
+                                                <div id="courses-view-in-progress"
+                        data-status="1">
+                            <div id="pc-for-in-progress" data-region="paging-content">
+                    <div data-region="paging-content-item"
+                         data-page="2"
+                         class="hidden wdm-overview-slider m-0 row w-full" 
+                         id = "slick-slide-1">
+                        <div class = "col-md-4 col-lg-4 px-0 mx-10 bg-white hidden h-150">
+                            <div class="card mb-0">
+                                <figure class="overlay overlay-hover rounded">
+                                <div  class="courses-slides overlay-figure overlay-scale" style="background: url('https://ava3.furb.br/pluginfile.php/435477/course/overviewfiles/Aulas%20Remotas.jpg');background-size: cover;background-position: center;height: 110px;">
+                                </div>
+                        
+                                <div class=" overlay-figure overlay-scale w-full row ml-0 mr-0 d-flex align-items-center text-white font-weight-bold" style="background-color:#f2a654;height: 55px; ">
+                                    <div class="col-9 col-lg-9 font-size-12 float-left" ><a href = "https://ava3.furb.br/course/view.php?id=23040"  class="text-white">Aulas remotas: Tudo o que você pre...</a></div>
+                                </div>
+                                <figcaption onclick="location.href='https://ava3.furb.br/course/view.php?id=23040';" class="overlay-panel overlay-background overlay-fade text-center vertical-align " style="cursor: pointer;" title="Aulas remotas: Tudo o que você precisa saber">
+                                    <a href = "https://ava3.furb.br/course/view.php?id=23040" class="btn text-white font-weight-600 font-size-18 vertical-align-middle">VER CURSO</a>
+                                </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class = "col-md-4 col-lg-4 px-0 mx-10 bg-white hidden h-150">
+                            <div class="card mb-0">
+                                <figure class="overlay overlay-hover rounded">
+                                <div  class="courses-slides overlay-figure overlay-scale" style="background: url('https://ava3.furb.br/pluginfile.php/470036/course/overviewfiles/1.png');background-size: cover;background-position: center;height: 110px;">
+                                </div>
+                        
+                                <div class=" overlay-figure overlay-scale w-full row ml-0 mr-0 d-flex align-items-center text-white font-weight-bold" style="background-color:#fe6768;height: 55px; ">
+                                    <div class="col-9 col-lg-9 font-size-12 float-left" ><a href = "https://ava3.furb.br/course/view.php?id=24231"  class="text-white">Guia de Interatividade na FURB</a></div>
+                                </div>
+                                <figcaption onclick="location.href='https://ava3.furb.br/course/view.php?id=24231';" class="overlay-panel overlay-background overlay-fade text-center vertical-align " style="cursor: pointer;" title="Guia de Interatividade na FURB">
+                                    <a href = "https://ava3.furb.br/course/view.php?id=24231" class="btn text-white font-weight-600 font-size-18 vertical-align-middle">VER CURSO</a>
+                                </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+                        </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade"  id="furboverview_courses_view_future">
+                        <div class="text-center mt-3 h-200 d-flex align-items-center justify-content-center flex-column">
+                                        <img class="empty-placeholder-image-lg"
+                                        src="https://ava3.furb.br/theme/image.php/remui/block_myoverview/1614715870/courses"
+                                        alt="Sem cursos futuros"
+                                        role="presentation">
+                                        <p class="text-muted mt-1">Sem cursos futuros</p>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade"  id="furboverview_courses_view_past">
+                                                <div id="courses-view-past"
+                        data-status="0">
+                            <div id="pc-for-past" data-region="paging-content">
+                    <div data-region="paging-content-item"
+                         data-page="2"
+                         class="hidden wdm-overview-slider m-0 row w-full" 
+                         id = "slick-slide-0">
+                        <div class = "col-md-4 col-lg-4 px-0 mx-10 bg-white hidden h-150">
+                            <div class="card mb-0">
+                                <figure class="overlay overlay-hover rounded">            
+                                <div class=" overlay-figure overlay-scale w-full row ml-0 mr-0 d-flex align-items-center text-white font-weight-bold" style="background-color:#f2a654;height: 55px; ">
+                                    <div class="col-9 col-lg-9 font-size-12 float-left" ><a href = "https://ava3.furb.br/course/view.php?id=20829"  class="text-white">Fundamentos Matemáticos - Noturno</a></div>
+                                </div>
+                                <figcaption onclick="location.href='https://ava3.furb.br/course/view.php?id=20829';" class="overlay-panel overlay-background overlay-fade text-center vertical-align " style="cursor: pointer;" title="Fundamentos Matemáticos - Noturno">
+                                    <a href = "https://ava3.furb.br/course/view.php?id=20829" class="btn text-white font-weight-600 font-size-18 vertical-align-middle">VER CURSO</a>
+                                </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class = "col-md-4 col-lg-4 px-0 mx-10 bg-white hidden h-150">
+                            <div class="card mb-0">
+                                <figure class="overlay overlay-hover rounded">
+                                <div  class="courses-slides overlay-figure overlay-scale" style="background: url('https://ava3.furb.br/pluginfile.php/368348/course/overviewfiles/ImagemCapaAVA3.jpg');background-size: cover;background-position: center;height: 110px;">
+                                </div>
+                        
+                                <div class=" overlay-figure overlay-scale w-full row ml-0 mr-0 d-flex align-items-center text-white font-weight-bold" style="background-color:#fe6768;height: 55px; ">
+                                    <div class="col-9 col-lg-9 font-size-12 float-left" ><a href = "https://ava3.furb.br/course/view.php?id=21690"  class="text-white">Introdução à Computação - Notu...</a></div>
+                                </div>
+                                <figcaption onclick="location.href='https://ava3.furb.br/course/view.php?id=21690';" class="overlay-panel overlay-background overlay-fade text-center vertical-align " style="cursor: pointer;" title="Introdução à Computação - Noturno">
+                                    <a href = "https://ava3.furb.br/course/view.php?id=21690" class="btn text-white font-weight-600 font-size-18 vertical-align-middle">VER CURSO</a>
+                                </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class = "col-md-4 col-lg-4 px-0 mx-10 bg-white hidden h-150">
+                            <div class="card mb-0">
+                                <figure class="overlay overlay-hover rounded">            
+                                <div class=" overlay-figure overlay-scale w-full row ml-0 mr-0 d-flex align-items-center text-white font-weight-bold" style="background-color:#57c7d4;height: 55px; ">
+                                    <div class="col-9 col-lg-9 font-size-12 float-left" ><a href = "https://ava3.furb.br/course/view.php?id=21670"  class="text-white">Introdução à Programação - Not...</a></div>
+                                </div>
+                                <figcaption onclick="location.href='https://ava3.furb.br/course/view.php?id=21670';" class="overlay-panel overlay-background overlay-fade text-center vertical-align " style="cursor: pointer;" title="Introdução à Programação - Noturno">
+                                    <a href = "https://ava3.furb.br/course/view.php?id=21670" class="btn text-white font-weight-600 font-size-18 vertical-align-middle">VER CURSO</a>
+                                </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class = "col-md-4 col-lg-4 px-0 mx-10 bg-white hidden h-150">
+                            <div class="card mb-0">
+                                <figure class="overlay overlay-hover rounded">
+                                <div class=" overlay-figure overlay-scale w-full row ml-0 mr-0 d-flex align-items-center text-white font-weight-bold" style="background-color:#56c19a;height: 55px; ">
+                                    <div class="col-9 col-lg-9 font-size-12 float-left" ><a href = "https://ava3.furb.br/course/view.php?id=22162"  class="text-white">Universidade, Ciência e Pesquisa -...</a></div>
+                                </div>
+                                <figcaption onclick="location.href='https://ava3.furb.br/course/view.php?id=22162';" class="overlay-panel overlay-background overlay-fade text-center vertical-align " style="cursor: pointer;" title="Universidade, Ciência e Pesquisa - Noturno">
+                                    <a href = "https://ava3.furb.br/course/view.php?id=22162" class="btn text-white font-weight-600 font-size-18 vertical-align-middle">VER CURSO</a>
+                                </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Notifications Section -->
+                
+                    <!-- Welcome Message and Achivements -->
+                    <!-- Upcoming Notifications -->
+                    <div id= "new-upcoming-block"class = "col-sm-12 col-md-12 col-lg-5  justify-content-center" style="margin: auto;">
+                        <div id="timeline-view-604964f5231a3604964f4a50874" data-region="timeline-view" class="panel panel-bordered">
+                            <div data-region="timeline-view-dates" id="timeline-view-dates-604964f5231a3604964f4a50874">
+                                                <div data-region="event-list-container"
+                                 data-limit="20"
+                                 data-course-id=""
+                                 data-last-id=""
+                                 data-midnight="1615345200"
+                                 id="event-list-container-">
+                            
+                                <div data-region="event-list-content" id = "wdm-timeline-event" class="panel panel-bordered">
+                                    <div class = "panel-heading ">
+                                        <h4 class="p-20 m-0">Tarefas para concluir</h4>
+                                    </div>
+                                    <div>
+                                        <ul class="nav nav-tabs nav-tabs-line border-0 justify-content-center" role="tablist">
+                                            <li class="nav-item today">
+                                                <a class="nav-link active" href="#myoverview_today_view" role="tab" data-toggle="tab">
+                                                    Hoje
+                                                    <span class="badge badge-pill badge-important" data-region="count-container">0</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item future">
+                                                <a class="nav-link" href="#myoverview_future_view" role="tab" data-toggle="tab">
+                                                    Próximos
+                                                    <span class="badge badge-pill badge-important" data-region="count-container">0</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item overdue">
+                                                <a class="nav-link" href="#myoverview_overdue_view" role="tab" data-toggle="tab">
+                                                    Em atraso
+                                                    <span class="badge badge-pill badge-important" data-region="count-container">0</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane fade show active" id="myoverview_today_view">
+                                                            <div data-region="event-list-group-container"
+                                 data-start-day="0"
+                                 data-end-day="1"
+                                 class="hidden carousel vertical slide"
+                                 id = "carousel-example-vertical-1"
+                                 data-ride="carousel"
+                                 data-interval="false"
+                                 >
+                                <div class="list-group list-group-gap carousel-inner mb-0" style="z-index:2;position:relative" role="listbox" data-region="event-list" aria-describedby="event-list-title-604964f5231a3604964f4a50874">
+                                            
+                                            
+                                </div>
+                                <div class="card h-250 no-event mb-10 shadow" style = "display:none; position: relative; z-index: 2">
+                                    <div class="card-block h-250 p-0 d-flex align-items-center justify-content-center flex-column">
+                                        <img class="empty-placeholder-image-lg"
+                                         src="https://ava3.furb.br/theme/image.php/remui/block_myoverview/1614715870/activities"
+                                         alt="Não há atividades pendentes"
+                                         role="presentation">
+                                        <p class="text-muted m-t-1">Nenhum evento para realizar</p>
+                                    </div>
+                                </div>
+                            
+                                <div class="card-bottom-first"></div>
+                                <div class="card-bottom-second"></div>
+                            
+                                <div class="w-40 carousel-navbutton" style="position: absolute; z-index:999; bottom: 40px; right: 5px;">
+                                    <a class="btn btn-icon font-size-20 py-5" href="#carousel-example-vertical-1" role="button" data-slide="next">
+                                        <i class="icon fa-chevron-up grey-500" aria-hidden="true"></i>
+                                    </a>
+                            
+                                    <a class="btn btn-icon font-size-20 py-5" href="#carousel-example-vertical-1" role="button" data-slide="prev">
+                                        <i class="icon fa-chevron-down grey-500" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                        <div role="tabpanel" class="tab-pane fade" id="myoverview_future_view">
+                                                            <div data-region="event-list-group-container"
+                                 data-start-day="1"
+                                 data-end-day=""
+                                 class="hidden carousel vertical slide"
+                                 id = "carousel-example-vertical-2"
+                                 data-ride="carousel"
+                                 data-interval="false"
+                                 >
+                                <div class="list-group list-group-gap carousel-inner mb-0" style="z-index:2;position:relative" role="listbox" data-region="event-list" aria-describedby="event-list-title-604964f5231a3604964f4a50874">
+                                            
+                                            
+                                </div>
+                                <div class="card h-250 no-event mb-10 shadow" style = "display:none; position: relative; z-index: 2">
+                                    <div class="card-block h-250 p-0 d-flex align-items-center justify-content-center flex-column">
+                                        <img class="empty-placeholder-image-lg"
+                                         src="https://ava3.furb.br/theme/image.php/remui/block_myoverview/1614715870/activities"
+                                         alt="Não há atividades pendentes"
+                                         role="presentation">
+                                        <p class="text-muted m-t-1">Nenhum evento para realizar</p>
+                                    </div>
+                                </div>
+                            
+                                <div class="card-bottom-first"></div>
+                                <div class="card-bottom-second"></div>
+                            
+                                <div class="w-40 carousel-navbutton" style="position: absolute; z-index:999; bottom: 40px; right: 5px;">
+                                    <a class="btn btn-icon font-size-20 py-5" href="#carousel-example-vertical-2" role="button" data-slide="next">
+                                        <i class="icon fa-chevron-up grey-500" aria-hidden="true"></i>
+                                    </a>
+                            
+                                    <a class="btn btn-icon font-size-20 py-5" href="#carousel-example-vertical-2" role="button" data-slide="prev">
+                                        <i class="icon fa-chevron-down grey-500" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                                        <div role="tabpanel" class="tab-pane fade" id="myoverview_overdue_view">
+                                                            <div data-region="event-list-group-container"
+                                 data-start-day="-14"
+                                 data-end-day="0"
+                                 class="hidden carousel vertical slide"
+                                 id = "carousel-example-vertical-3"
+                                 data-ride="carousel"
+                                 data-interval="false"
+                                 >
+                                <div class="list-group list-group-gap carousel-inner mb-0" style="z-index:2;position:relative" role="listbox" data-region="event-list" aria-describedby="event-list-title-604964f5231a3604964f4a50874">
+                                            
+                                            
+                                </div>
+                                <div class="card h-250 no-event mb-10 shadow" style = "display:none; position: relative; z-index: 2">
+                                    <div class="card-block h-250 p-0 d-flex align-items-center justify-content-center flex-column">
+                                        <img class="empty-placeholder-image-lg"
+                                         src="https://ava3.furb.br/theme/image.php/remui/block_myoverview/1614715870/activities"
+                                         alt="Não há atividades pendentes"
+                                         role="presentation">
+                                        <p class="text-muted m-t-1">Nenhum evento para realizar</p>
+                                    </div>
+                                </div>
+                            
+                                <div class="card-bottom-first"></div>
+                                <div class="card-bottom-second"></div>
+                            
+                                <div class="w-40 carousel-navbutton" style="position: absolute; z-index:999; bottom: 40px; right: 5px;">
+                                    <a class="btn btn-icon font-size-20 py-5" href="#carousel-example-vertical-3" role="button" data-slide="next">
+                                        <i class="icon fa-chevron-up grey-500" aria-hidden="true"></i>
+                                    </a>
+                            
+                                    <a class="btn btn-icon font-size-20 py-5" href="#carousel-example-vertical-3" role="button" data-slide="prev">
+                                        <i class="icon fa-chevron-down grey-500" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            </div>
+                        </div>
+                        
+                    </div>
+              
+            </div>
+                </div>
+                    
+            </div></aside></div>
+                                    
+                                </section>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    <!-- End Page -->
+        
+    </main> 
+        <!-- Footer -->
+    <footer class="site-footer  bg-customcolor-600   grey-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 text-xs-center">
+                        <div class="py-30 px-10">
+                            <h4 class="card-title mt-10 grey-100">Suporte ao Ambiente</h4>
+                            <p class="card-text"><table border="0">
+        <tbody>
+        <tr>
+        <td style="text-align: right;">Telefone:&nbsp;</td>
+        <td><strong>&nbsp;(47) 3321-0630</strong></td>
+        </tr>
+        <tr>
+        <td style="text-align: right;">E-mail:&nbsp;</td>
+        <td><strong>&nbsp;atendimentoava@furb.br</strong></td>
+        </tr>
+        </tbody>
+        </table></p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 text-xs-center">
+                                <div class="py-30 px-10">
+                                    <h4 class="card-title mt-10 grey-100">Aluno EaD</h4>
+                                    <p class="card-text"><table border="0">
+        <tbody>
+        <tr>
+        <td style="text-align: right;">WhatsApp:&nbsp;</td>
+        <td><strong>&nbsp;(47) 3321-0630</strong></td>
+        </tr>
+        <tr>
+        <td style="text-align: right;">Telefone:&nbsp;</td>
+        <td><strong>&nbsp;0800-0480100</strong></td>
+        </tr>
+        <tr>
+        <td style="text-align: right;">E-mail:&nbsp;</td>
+        <td><strong>&nbsp;ead@furb.br</strong></td>
+        </tr>
+        </tbody>
+        </table></p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 text-xs-center">
+                                <div class="py-30 px-10">
+                                    <h4 class="card-title mt-10 grey-100"> </h4>
+                                    <p class="card-text"><table border="0">
+        <tbody>
+        <tr>
+        <td><strong>Universidade Regional de Blumenau</strong></td>
+        </tr>
+        <tr>
+        <td><em>Copyright</em> FURB - 2020</td>
+        </tr>
+        </tbody>
+        </table>
+        <p>Todos os direitos reservados</p></p>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                    
+                    <!-- bottom sections -->
+                    <div class="footer-bottom">
+                        <div class="site-footer-legal pt-5">
+                            <a href="0"></a>
+                        </div>
+                        
+                        <div class="site-footer-right pt-5">
+                            
+                            <div class="tool_dataprivacy"><a href="https://ava3.furb.br/admin/tool/dataprivacy/summary.php">Resumo de retenção de dados</a></div><a href="https://download.moodle.org/mobile?version=2018051713.03&amp;lang=pt_br&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Obter o aplicativo para dispositivos móveis</a>
+                            <div id="course-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                    
+          <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+        <script type="text/javascript" src="https://ava3.furb.br/lib/javascript.php/1612534124/lib/requirejs/require.min.js"></script>  
+    </footer>
+    
+    </body>
+    </html>
